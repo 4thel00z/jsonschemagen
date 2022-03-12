@@ -7,8 +7,6 @@ import (
 	"fmt"
 	"io"
 	"os"
-
-	"github.com/a-h/generate"
 )
 
 var (

@@ -4,14 +4,14 @@ Generates Go (golang) Structs and Validation code from JSON schema.
 
 # Requirements
 
-* Go 1.8+
+* Go 1.17+
 
 # Usage
 
 Install
 
 ```console
-$ go get -u github.com/a-h/generate/...
+$ go get -u github.com/4thel00z/jsonschemagen/...
 ```
 
 or
