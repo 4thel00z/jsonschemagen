@@ -1,3 +1,5 @@
 /schema-generate
 .idea
 test/*_gen
+definitions
+jsonschemagen
