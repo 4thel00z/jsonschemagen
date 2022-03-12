@@ -1,4 +1,4 @@
-package generate
+package jsonschemagen
 
 import (
 	"encoding/json"
@@ -153,7 +153,7 @@ func TestFieldGenerationWithArrayReferences(t *testing.T) {
 	g := New(&root)
 	err := g.CreateTypes()
 
-	//Output(os.Stderr, g, "test")
+	// Output(os.Stderr, g, "test")
 
 	if err != nil {
 		t.Error("Failed to get the fields: ", err)
@@ -202,7 +202,7 @@ func TestNestedStructGeneration(t *testing.T) {
 	err := g.CreateTypes()
 	results := g.Structs
 
-	//Output(os.Stderr, g, "test")
+	// Output(os.Stderr, g, "test")
 
 	if err != nil {
 		t.Error("Failed to create structs: ", err)

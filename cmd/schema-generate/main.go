@@ -5,6 +5,7 @@ package main
 import (
 	"flag"
 	"fmt"
+	generate "github.com/4thel00z/jsonschemagen"
 	"io"
 	"os"
 )

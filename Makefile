@@ -1,6 +1,6 @@
 PKG := .
 CMD := $(PKG)/cmd/schema-generate
-BIN := schema-generate
+BIN := jsonschemagen
 
 # Build
 
@@ -52,3 +52,5 @@ $(GOPATH)/bin/golint:
 vet:
 	@echo "+ go vet"
 	go vet $(PKG)/...
+
+
